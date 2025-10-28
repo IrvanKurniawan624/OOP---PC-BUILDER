@@ -12,7 +12,7 @@ public class Customer {
         this.id = id;
     }
 
-    public String getName() {
+    public String getNama() {
         return name;
     }
 
@@ -30,7 +30,7 @@ public class Customer {
 
     public void generateSalesReport() {
         System.out.println("--- Customer Sales Report ---");
-        System.out.println("Name: " + this.getName());
+        System.out.println("Name: " + this.getNama());
         System.out.println("ID: " + this.getId());
         double total = 0;
         for (Double d : this.purchases) {

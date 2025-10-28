@@ -13,10 +13,6 @@ public abstract class Component{
         return nama;
     }
 
-    public String getName(){
-        return nama;
-    }
-
     public double getHarga(){
         return harga; 
     }

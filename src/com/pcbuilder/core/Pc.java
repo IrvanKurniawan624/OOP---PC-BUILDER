@@ -55,9 +55,9 @@ public class Pc {
 
     public void generateReport() {
         System.out.println("--- PC Build Report ---");
-        System.out.println("CPU: " + this.getCPU().getName());
-        System.out.println("Motherboard: " + this.getMotherboard().getName());
-        System.out.println("RAM: " + this.getRam().getName());
+        System.out.println("CPU: " + this.getCPU().getNama());
+        System.out.println("Motherboard: " + this.getMotherboard().getNama());
+        System.out.println("RAM: " + this.getRam().getNama());
         System.out.println("-----------------------");
     }
 
