@@ -41,7 +41,7 @@ public class Pc {
         System.out.printf("%-30s %-10.2f%n", "TOTAL", calculateTotalPrice());
     }
 
-    public Cpu getCPU(){
+    public Cpu getCpu(){
         return cpu;
     }
 
@@ -55,7 +55,7 @@ public class Pc {
 
     public void generateReport() {
         System.out.println("--- PC Build Report ---");
-        System.out.println("CPU: " + this.getCPU().getNama());
+        System.out.println("CPU: " + this.getCpu().getNama());
         System.out.println("Motherboard: " + this.getMotherboard().getNama());
         System.out.println("RAM: " + this.getRam().getNama());
         System.out.println("-----------------------");
