@@ -3,17 +3,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Customer {
-    private String name;
+    private String nama;
     private String id;
     private List<Double> purchases = new ArrayList<>();
 
-    public Customer(String name, String id) {
-        this.name = name;
+    public Customer(String nama, String id) {
+        this.nama = nama;
         this.id = id;
     }
 
     public String getNama() {
-        return name;
+        return nama;
     }
 
     public String getId() {
@@ -30,7 +30,7 @@ public class Customer {
 
     public void generateSalesReport() {
         System.out.println("--- Customer Sales Report ---");
-        System.out.println("Name: " + this.getNama());
+        System.out.println("Nama: " + this.getNama());
         System.out.println("ID: " + this.getId());
         double total = 0;
         for (Double d : this.purchases) {

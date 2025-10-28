@@ -1,8 +1,8 @@
 package com.pcbuilder.component;
 
 public class Cpu extends Component{
-    public Cpu(String name, double harga){
-        super(name, harga);
+    public Cpu(String nama, double harga){
+        super(nama, harga);
     }
 
     public void displayInfo() {

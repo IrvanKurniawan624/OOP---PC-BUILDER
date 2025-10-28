@@ -1,8 +1,8 @@
 package com.pcbuilder.component;
 
 public class Motherboard extends Component{
-    public Motherboard(String name, double harga) {
-        super(name, harga);
+    public Motherboard(String nama, double harga) {
+        super(nama, harga);
     }
 
     public void displayInfo() {
